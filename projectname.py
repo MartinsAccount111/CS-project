@@ -9,6 +9,10 @@ result = number * 2  # You can replace this with more complex logic if needed
 # Displaying output
 st.write("The result of multiplying your number by 2 is:", result)
 
+# Displaying output with a larger font size
+st.write("The result of multiplying your number by 2 is:")
+st.markdown(f"<h1 style='font-size:48px; color:blue;'>{result}</h1>", unsafe_allow_html=True)
+
 # Displaying other messages or code results
 st.write("This is a normal message displayed in Streamlit.")
 
