@@ -3,9 +3,9 @@ st.write("""how do i get whole thing to streamlit, yeah
          siuuu
          ii
          i
-         i""")
+         i""",print("yeahhh budddyy"))
 
 
 
 
-print("yeahhh budddyy")
+
